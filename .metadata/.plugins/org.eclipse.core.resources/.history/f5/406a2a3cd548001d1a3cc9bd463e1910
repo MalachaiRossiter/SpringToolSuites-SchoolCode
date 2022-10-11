@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Malachai
+ *
+ */
+module RossiterMalachaiCaresoftInterface {
+}

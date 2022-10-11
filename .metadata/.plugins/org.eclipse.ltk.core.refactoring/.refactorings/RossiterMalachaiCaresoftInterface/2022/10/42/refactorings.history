@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.caresoft.clinicapp.HIPPAACompliantAdmin&apos; to &apos;HIPAACompliantAdmin&apos;&#x0D;&#x0A;- Original project: &apos;RossiterMalachaiCaresoftInterface&apos;&#x0D;&#x0A;- Original element: &apos;com.caresoft.clinicapp.HIPPAACompliantAdmin&apos;&#x0D;&#x0A;- Renamed element: &apos;com.caresoft.clinicapp.HIPAACompliantAdmin&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HIPPAACompliantAdmin&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.caresoft.clinicapp{HIPPAACompliantAdmin.java[HIPPAACompliantAdmin" matchStrategy="1" name="HIPAACompliantAdmin" qualified="false" references="true" similarDeclarations="false" stamp="1665433396688" textual="false" version="1.0"/>
+</session>

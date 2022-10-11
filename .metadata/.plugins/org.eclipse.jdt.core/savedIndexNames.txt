@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\Spring Tool Suite Java Files\.metadata\.plugins\org.eclipse.jdt.core
+593747848.index
+2787366177.index
+1865797976.index
