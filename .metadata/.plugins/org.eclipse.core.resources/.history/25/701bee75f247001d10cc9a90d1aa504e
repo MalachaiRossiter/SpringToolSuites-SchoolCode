@@ -1,9 +1,0 @@
-package com.zookeeper;
-
-public class Mammal {
-	private int energyLevel;
-	
-	public int displayEnergy() {
-		return energyLevel;
-	}
-}
