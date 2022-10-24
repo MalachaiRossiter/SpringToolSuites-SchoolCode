@@ -58,7 +58,16 @@ public class Book {
 		this.updatedAt = updatedAt;
 	}
 
-    
+	public Book(@NotNull @Size(min = 5, max = 200) String title, @NotNull @Size(min = 5, max = 200) String description,
+			@NotNull @Size(min = 3, max = 40) String language, @NotNull @Min(100) Integer numberOfPages) {
+		super();
+		this.title = title;
+		this.description = description;
+		this.language = language;
+		this.numberOfPages = numberOfPages;
+	}
+
+
 
 	public Long getId() {
 		return id;
