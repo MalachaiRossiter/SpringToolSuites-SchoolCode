@@ -2,7 +2,6 @@ package com.malachai.DojoAndNinja.models;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
     
 public class LoginUser {
     
@@ -11,7 +10,6 @@ public class LoginUser {
     private String email;
     
     @NotEmpty(message="Password is required!")
-    @Size(min=8, max=128, message="Password must be between 8 and 128 characters")
     private String password;
     
     public LoginUser() {}

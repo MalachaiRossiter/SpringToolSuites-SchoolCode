@@ -19,7 +19,7 @@
 </head>
 <body>
    <h1>Welcome to the login screen :)</h1>
-   <form:form action="/register" modelAttribute="newUser" class="form">
+   <form:form action="/bookClub/register" modelAttribute="newUser" method="POST" class="form">
    		<div class="form-row">
    			<form:label for="username" path="username">User Name:</form:label>
    			<form:errors path="username"/>
@@ -39,6 +39,20 @@
    			<form:label for="confirmPassword" path="confirmPassword">Confirm Password:</form:label>
    			<form:errors path="confirmPassword"/>
    			<form:input type="password" path="confirmPassword"></form:input>
+   		</div>
+   		<button>SUBMIT</button>
+   </form:form>
+   
+   <form:form action="/bookClub/login" modelAttribute="newLogin" class="form">
+  		<div class="form-row">
+   			<form:label for="email" path="email">Email:</form:label>
+   			<form:errors path="email"/>
+   			<form:input type="text" path="email"></form:input>
+   		</div>
+   		<div class="form-row">
+   			<form:label for="password" path="password">Password:</form:label>
+   			<form:errors path="password"/>
+   			<form:input type="password" path="password"></form:input>
    		</div>
    		<button>SUBMIT</button>
    </form:form>
